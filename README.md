@@ -1,5 +1,5 @@
 # MultiProgressBar
-<p>A progress bar library for Android that provides customized progress bars</p>
+<p>A progress bar library for Android that provides <b>customized progress bars.</b></p>
 	
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/knight-rider1609/MultiProgressBar/blob/master/LICENSE)
 
