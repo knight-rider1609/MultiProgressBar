@@ -1,5 +1,6 @@
 # MultiProgressBar
-
+<p>A progress bar library for Android that provides customized progress bars</p>
+	
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/knight-rider1609/MultiProgressBar/blob/master/LICENSE)
 
 <div>
@@ -22,5 +23,7 @@
 ![image](https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/infinity_bar.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/rainbow_ring.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/triad_ring.gif)
+</br>
+</br>
 </br>
 ![image](https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/color_capsule.gif)
