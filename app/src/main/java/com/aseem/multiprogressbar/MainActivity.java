@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         progBar = findViewById(R.id.myProgBar);
-        progBar.setProgressVector(getDrawable(R.drawable.horizontal2));
+        progBar.setProgressVector(getDrawable(R.drawable.infinity_bar));
     }
 }

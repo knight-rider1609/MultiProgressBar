@@ -1,4 +1,31 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.github.dcendents.android-maven'
+
+ext {
+
+    bintrayRepo = "MultiProgressBar"
+    bintrayName = "com.aseem.versatileprogressbar"
+
+    publishedGroupId = 'com.aseem.versatileprogressbar'
+    libraryName = 'MultiProgressBar'
+    artifact = 'MultiProgressBar'
+
+    libraryDescription = 'A Custom Progress Bar library to render different types of progress bars'
+
+    siteUrl = 'https://github.com/knight-rider1609/MultiProgressBar'
+    gitUrl = 'https://github.com/knight-rider1609/MultiProgressBar.git'
+
+    libraryVersion = '1.1.0'
+
+    developerId = 'knight-rider1609'
+    developerName = 'Aseem Khare'
+    developerEmail = 'aseem.khare1609@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 
 android {
     compileSdkVersion 28
@@ -7,8 +34,8 @@ android {
     defaultConfig {
         minSdkVersion 23
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -31,4 +58,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+if (project.rootProject.file('local.properties').exists()) {
+    apply from: 'https://raw.githubusercontent.com/knight-rider1609/JCenter/master/installv1.gradle'
+    apply from: 'https://raw.githubusercontent.com/knight-rider1609/JCenter/master/bintrayv1.gradle'
 }

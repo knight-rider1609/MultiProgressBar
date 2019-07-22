@@ -2,12 +2,27 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:clickable="true">
+
+    <View
+        android:id="@+id/progBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:alpha="0"/>
 
     <ImageView
         android:id="@+id/progressImg"
         android:layout_width="match_parent"
-        android:layout_height="52dp"/>
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressImg"
+        android:text="Please wait..."
+        android:gravity="center"/>
 
 </RelativeLayout>
