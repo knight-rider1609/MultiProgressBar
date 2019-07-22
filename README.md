@@ -8,9 +8,7 @@
 	  <a href="https://github.com/knight-rider1609">Aseem Khare</a></p>
 </div>
 
-<img align="left"  src="https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/bouncy_balls.gif">
+![alt text](https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/bouncy_balls.gif)
 
-<img align="center"  src="https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/clock.gif">
 
-<img align="right"  src="https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/fidget.gif">
 
