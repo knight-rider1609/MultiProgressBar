@@ -22,3 +22,5 @@
 ![image](https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/infinity_bar.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/rainbow_ring.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/triad_ring.gif)
+</br>
+![image](https://github.com/knight-rider1609/MultiProgressBar/blob/master/versatileprogressbar/src/main/res/drawable/color_capsule.gif)
