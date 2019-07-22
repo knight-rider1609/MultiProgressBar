@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/knight-rider1609/MultiProgressBar/blob/master/LICENSE)
 
 <div>
-  <p>Built with ❤︎ by
+  <p align="center">Built with ❤︎ by
 	  <a href="https://github.com/knight-rider1609">Aseem Khare</a></p>
 </div>
 
