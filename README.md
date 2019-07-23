@@ -137,7 +137,7 @@ You can programatically customize the progress bar using the following methods:
 		</tr>
 	</table>
 	
-	# 📃 License
+# 📃 License
 
     Copyright 2019 Aseem Khare
 
