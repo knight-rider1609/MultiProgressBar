@@ -34,6 +34,8 @@ dependencies {
 ## ❔ Usage
 **Basic Usage**
 </br>
+Minimum SDk version required:23
+
 Put the following at the bottom of your activity layout xml file. Probably inside a parent Relative Layout tag.
 
 ``` 
@@ -44,7 +46,7 @@ Put the following at the bottom of your activity layout xml file. Probably insid
 	android:elevation="10dp"
         app:barType="@drawable/bouncy_balls"
         app:text="Please wait..."          
-        app:textSize="18sp"		   
+        app:textSize="6sp"		   
         app:enlarge="3"			     
         app:androidtextColor="@color/colorPrimary"/> 
 
@@ -152,3 +154,5 @@ You can programatically customize the progress bar using the following methods:
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+# If you like the library, please click on the ★ Star button at the top 😊
