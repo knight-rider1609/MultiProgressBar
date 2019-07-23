@@ -66,7 +66,7 @@ public class ProgBar extends RelativeLayout {
             setProgressVector(imageFile);
         }
 
-        if (customMsg!=null && !customMsg.isEmpty()){
+        if (customMsg!=null){
             setTextMsg(customMsg);
         }
 
@@ -91,12 +91,6 @@ public class ProgBar extends RelativeLayout {
     public void enlarge(int enlarge){
         if (enlarge>=1 && enlarge<=10 )
         imageView.getLayoutParams().height = enlarge*100;
-    }
-
-    public void setAlpha(double alpha){
-        if (alpha>=0 && alpha<=1){
-            progBg.setAlpha((float)alpha);
-        }
     }
 
     public void setTextMsg(String message){

@@ -21,8 +21,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:barType="@drawable/bouncy_balls"
-        app:text="Please wait..."
-        app:textSize="18sp"
-        app:enlarge="3"/>
+        android:elevation="10dp"/>
 
 </android.support.constraint.ConstraintLayout>
