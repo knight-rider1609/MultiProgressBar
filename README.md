@@ -155,4 +155,4 @@ You can programatically customize the progress bar using the following methods:
     See the License for the specific language governing permissions and
     limitations under the License.
 
-# If you like the library, please click on the ★ Star button at the top 😊
+### If you like the library, please click on the ★ Star button at the top 😊
