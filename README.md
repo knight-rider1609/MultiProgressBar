@@ -31,4 +31,21 @@ dependencies {
   implementation 'com.aseem.versatileprogressbar:MultiProgressBar:1.1.0'
 }
 ```
+## ❔ Usage
+**Basic Usage**
+Put the following at the bottom of your activity layout xml file. Probably inside a parent Relative Layout tag.
+
+``` 
+ 	<com.aseem.versatileprogressbar.ProgBar
+        android:id="@+id/myProgBar"           // Id of the progreass bar element. You can change the id as per your convention.
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	android:elevation="10dp"
+        app:barType="@drawable/bouncy_balls"  // Defines the design of progress bar. All the available designs are mentioned below.
+        app:text="Please wait..."             // The text you want to show below the progress bar
+        app:textSize="18sp"		      // The size of text you want
+        app:enlarge="3"			      // This can range from 1 to 10 and enalrges the size of the progress bar
+        app:androidtextColor="@color/colorPrimary"/>  // This is the color of the text
+
+```
 
