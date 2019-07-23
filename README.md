@@ -33,19 +33,51 @@ dependencies {
 ```
 ## ❔ Usage
 **Basic Usage**
+</br>
 Put the following at the bottom of your activity layout xml file. Probably inside a parent Relative Layout tag.
 
 ``` 
  	<com.aseem.versatileprogressbar.ProgBar
-        android:id="@+id/myProgBar"           // Id of the progreass bar element. You can change the id as per your convention.
+        android:id="@+id/myProgBar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 	android:elevation="10dp"
-        app:barType="@drawable/bouncy_balls"  // Defines the design of progress bar. All the available designs are mentioned below.
-        app:text="Please wait..."             // The text you want to show below the progress bar
-        app:textSize="18sp"		      // The size of text you want
-        app:enlarge="3"			      // This can range from 1 to 10 and enalrges the size of the progress bar
-        app:androidtextColor="@color/colorPrimary"/>  // This is the color of the text
+        app:barType="@drawable/bouncy_balls"
+        app:text="Please wait..."          
+        app:textSize="18sp"		   
+        app:enlarge="3"			     
+        app:androidtextColor="@color/colorPrimary"/> 
 
 ```
+##Description
+<table>
+    <th>Attribute Name</th>
+    <th>Default Value</th>
+    <th>Description</th>
+	<tr>
+		<td>app:barType="@drawable/bouncy_balls" </td>
+		<td>bouncy_balls</td>
+		<td>Defines the design of progress bar. All the available designs are mentioned below.</td>
+	</tr>
+		<tr>
+		<td>app:text </td>
+		<td>Please wait...</td>
+		<td>The text you want to show below the progress bar</td>
+	</tr>
+		<tr>
+		<td> app:textSize </td>
+		<td>16sp</td>
+		<td>The size of text you wan</td>
+	</tr>
+		<tr>
+		<td>app:enlarge </td>
+		<td>2</td>
+		<td>This can range from 1 to 10 and enalrges the size of the progress bar</td>
+	</tr>
+		<tr>
+		<td>app:androidtextColo </td>
+		<td>BLACK</td>
+		<td>This is the color of the text</td>
+	</tr>
+	</table>
 
