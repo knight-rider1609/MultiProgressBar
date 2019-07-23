@@ -49,13 +49,14 @@ Put the following at the bottom of your activity layout xml file. Probably insid
         app:androidtextColor="@color/colorPrimary"/> 
 
 ```
-##Description
+**Description**
+
 <table>
     <th>Attribute Name</th>
     <th>Default Value</th>
     <th>Description</th>
 	<tr>
-		<td>app:barType="@drawable/bouncy_balls" </td>
+		<td>app:barType </td>
 		<td>bouncy_balls</td>
 		<td>Defines the design of progress bar. All the available designs are mentioned below.</td>
 	</tr>
@@ -80,4 +81,20 @@ Put the following at the bottom of your activity layout xml file. Probably insid
 		<td>This is the color of the text</td>
 	</tr>
 	</table>
+	
+**Progress Bar Designs**
 
+
+``` 
+        app:barType="@drawable/bouncy_balls"
+	app:barType="@drawable/clock"
+	app:barType="@drawable/color_capsule"
+	app:barType="@drawable/fidget"
+	app:barType="@drawable/gear_duo"
+	app:barType="@drawable/hour_glass"
+	app:barType="@drawable/infinity_bar"
+	app:barType="@drawable/jelly_belly"
+	app:barType="@drawable/rainbow_ring"
+	app:barType="@drawable/triad_ring"
+```
+     
