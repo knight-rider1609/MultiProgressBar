@@ -1,7 +1,7 @@
 # MultiProgressBar
 <p>A progress bar library for Android that provides <b>customized progress bars.</b></p>
 	
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/knight-rider1609/MultiProgressBar/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/knight-rider1609/MultiProgressBar/blob/master/LICENSE) &nbsp;&nbsp;&nbsp;&nbsp;
 [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-MultiProgressBar-green.svg?style=flat )]( https://android-arsenal.com/details/1/7785 )
 
 <div>
