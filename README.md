@@ -29,7 +29,7 @@
 Add this in your app's build.gradle file:
 ```groovy
 dependencies {
-  implementation 'com.aseem.versatileprogressbar:MultiProgressBar:1.1.0'
+  implementation 'com.aseem.versatileprogressbar:MultiProgressBar:1.1.1'
 }
 ```
 ## ❔ Usage
