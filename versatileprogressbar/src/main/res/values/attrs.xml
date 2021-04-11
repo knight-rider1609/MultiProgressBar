@@ -5,6 +5,6 @@
         <attr name="text" format="string"/>
         <attr name="androidtextColor" format="color"/>
         <attr name="textSize" format="dimension"/>
-        <attr name="enlarge"/>
+        <attr name="enlarge" format="integer"/>
     </declare-styleable>
 </resources>
